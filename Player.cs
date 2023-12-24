@@ -13,11 +13,11 @@ public class Player : MonoBehaviour
     public void TakeDamage(int damage)
     {
         health -= damage;
-        print ("Здоровье игрока: " + health);
+        print ("Г‡Г¤Г®Г°Г®ГўГјГҐ ГЁГЈГ°Г®ГЄГ : " + health);
 
     }
 
-    private void Update()
+    void Update()
     {
        if (Input.GetMouseButton(0))
         {
